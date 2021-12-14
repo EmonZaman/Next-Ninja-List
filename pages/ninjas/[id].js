@@ -7,7 +7,7 @@ export const getStaticPaths = async () => {
 
             params: { id: ninja.id.toString() }
         }
-
+        rtr
     })
     return {
         paths,
